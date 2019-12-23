@@ -55,3 +55,7 @@ git push -u origin master
 git clone git@github.com:michaelliao/gitskills.git
 或
 git clone https://github.com/michaelliao/gitskills.git
+
+17.从远程仓库更新代码到本地仓库
+git fetch learngit //获取远程更新
+git merge learngit/master //把更新地内容合并到本地分支
